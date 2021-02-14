@@ -1,3 +1,4 @@
+/*********** TAG SELECTORS *************/
 body {
     background-color: #EAF6F6;
 }
@@ -26,6 +27,8 @@ h1 {
     font-family: "";
 }
 
+
+
 /*********** CLASS SELECTORS *************/
 
 .profile {
@@ -36,6 +39,10 @@ h1 {
 .creations {
     width: 200px;
     border-radius: 5%;
+}
+
+.creations:hover {
+    width: 20%;
 }
 
 /*********** ID SELECTORS *************/
