@@ -10,12 +10,7 @@ hr {
     width: 80%;
 }
 
-img {
-    height: 225px;
-    border-radius: 50%;
-}
-
-h1, h3, th {
+h1, h2, h3, th {
     color: #66BFBF;
 }
 
@@ -26,3 +21,20 @@ a {
 a:hover {
     color: burlywood;
 }
+
+h1 {
+    font-family: "";
+}
+
+/*********** CLASS SELECTORS *************/
+
+.profile {
+    height: 225px;
+    border-radius: 50%;
+}
+
+.creations {
+    width: 200px;
+}
+
+/*********** ID SELECTORS *************/
