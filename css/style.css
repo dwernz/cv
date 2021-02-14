@@ -35,6 +35,7 @@ h1 {
 
 .creations {
     width: 200px;
+    border-radius: 5%;
 }
 
 /*********** ID SELECTORS *************/
