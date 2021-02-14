@@ -1,0 +1,28 @@
+body {
+    background-color: #EAF6F6;
+}
+
+hr {
+    border-style: none;
+    border-top-style: ridge;
+    border-color: #AAAAAA;
+    border-width: 10px;
+    width: 80%;
+}
+
+img {
+    height: 225px;
+    border-radius: 50%;
+}
+
+h1, h3, th {
+    color: #66BFBF;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: burlywood;
+}
