@@ -1,6 +1,8 @@
 /*********** TAG SELECTORS *************/
 body {
     background-color: #F5F4F4;
+    width: 70%;
+    margin: 0 auto;
 }
 
 hr {
@@ -8,7 +10,7 @@ hr {
     border-top-style: ridge;
     border-color: #CAE4DB;
     border-width: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 h1, h2, h3, th {
@@ -32,6 +34,18 @@ h1 {
     
 }
 
+h3 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+}
+
+ {
+    margin: 0 auto;
+}
+
 /*********** CLASS SELECTORS *************/
 
 .profile {
@@ -45,7 +59,15 @@ h1 {
 }
 
 .creations:hover {
-    width: 20%;
+    width: 250px;
+}
+
+.content {
+    text-align: center;
+}
+
+.navi {
+    text-align: center;
 }
 
 /*********** ID SELECTORS *************/
