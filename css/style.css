@@ -70,4 +70,14 @@ table {
     text-align: center;
 }
 
+.submit {
+    background-color: #A1CAE2;
+    color: #00303F;
+}
+
+.submit:hover {
+    background-color: #8FA8C0;
+    color: #F5F4F4;
+}
+
 /*********** ID SELECTORS *************/
