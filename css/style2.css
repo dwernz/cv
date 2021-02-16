@@ -1,0 +1,22 @@
+body {
+    
+}
+
+/* Profile */
+
+.profile-pic {
+    width: 80%;
+}
+
+#profile {
+    background-color: #292b2c;
+    color: white;
+    padding: 5% 10%;
+}
+
+/* Education */
+
+#education {
+    background-color: #f7f7f7;
+    padding: 5% 10%;
+}
