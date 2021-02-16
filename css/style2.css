@@ -2,10 +2,17 @@ body {
     
 }
 
+h3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
 /* Profile */
 
 .profile-pic {
     width: 80%;
+    border-radius: 5%;
+    margin: 2% auto;
 }
 
 #profile {
@@ -17,6 +24,21 @@ body {
 /* Education */
 
 #education {
-    background-color: #f7f7f7;
+    background-color: #f5f5f5;
+    padding: 5% 10%;
+}
+
+/* Work Experience */
+
+#work-experience {
+    background-color: #292b2c;
+    color: white;
+    padding: 5% 10%;
+}
+
+/* Skills */
+
+#skills {
+    background-color: #f5f5f5;
     padding: 5% 10%;
 }
