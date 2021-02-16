@@ -36,10 +36,15 @@ h3 {
     padding: 5% 10%;
 }
 
-/* Skills */
+/* Footer */
 
-#skills {
+#footer {
     background-color: #f5f5f5;
     padding: 5% 10%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 0 2% 2%;
 }
