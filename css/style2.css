@@ -30,6 +30,10 @@ h3 {
 
 /* Work Experience */
 
+.work-title {
+    width: 30%;
+}
+
 #work-experience {
     background-color: #292b2c;
     color: white;
