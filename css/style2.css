@@ -60,3 +60,37 @@ h3 {
 .footer-icon {
     margin: 0 2% 2%;
 }
+
+/* Creation */
+
+#printer {
+    background-color: #292b2c;
+    color: #f5f5f5;
+    padding: 5% 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#resin
+{
+    background-color: #f5f5f5;
+    padding: 5% 10%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.creation-picture {
+    width: 80%;
+    margin: 0 5% 10% 5%;
+    border-radius: 5%
+}
+
+.creation-picture:hover {
+    width: 150%;
+    position: relative;
+    z-index: 1;
+}
+
+.creation {
+    padding: 0 5%;
+}
