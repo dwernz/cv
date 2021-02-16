@@ -102,3 +102,8 @@ h3 {
     margin: 0 auto;
     color: #f5f5f5;
 }
+
+.recipe-download {
+    text-align: right;
+    margin: 2% auto;
+}
