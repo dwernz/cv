@@ -149,3 +149,34 @@ h3 {
     padding: 5% 10%;
     color: #f5f5f5;
 }
+
+#game {
+    background-color: #292b2c;
+    padding: 5% 10%;
+    color: #f5f5f5;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+.dice-game {
+    margin: 30px;
+    text-shadow: 5px 0 #232931;
+    color: #f5f5f5;
+}
+
+.dice-game-p {
+    font-size: 2rem;
+}
+
+.dice-game-img {
+    width: 80%;
+}
