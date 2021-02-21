@@ -132,3 +132,20 @@ h3 {
 .signUpBox {
     width: 30%;
 }
+
+#python {
+    background-color: #292b2c;
+    padding: 5% 10%;
+    margin: 0 auto;
+    color: #f5f5f5;
+}
+
+#javaScript {
+    padding: 5% 10%;
+}
+
+#script {
+    background-color: #292b2c;
+    padding: 5% 10%;
+    color: #f5f5f5;
+}
