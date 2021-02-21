@@ -107,3 +107,27 @@ h3 {
     text-align: right;
     margin: 2% auto;
 }
+
+#dailyUI-section {
+    padding: 5% 10%;
+}
+
+.dailyUI-heading {
+    margin-bottom: 1%; 
+}
+
+.notice {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#dailyUI {
+    background-color: #292b2c;
+    padding: 5% 10%;
+    margin: 0 auto;
+    color: #f5f5f5;
+}
+
+.signUpBox {
+    width: 30%;
+}
