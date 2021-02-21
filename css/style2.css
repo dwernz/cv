@@ -167,10 +167,11 @@ h3 {
     display: inline-block;
 }
 
-.dice-game {
+.dice-game-heading {
     margin: 30px;
     text-shadow: 5px 0 #232931;
     color: #f5f5f5;
+    font-size: 3rem;
 }
 
 .dice-game-p {
