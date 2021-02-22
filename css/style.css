@@ -1,0 +1,86 @@
+/********** TAG SECTION ***********/
+
+body {
+    
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+footer {
+    background-color: #343a40;
+    padding: 2% 10%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+/********** CLASS SECTION ***********/
+
+.white-section {
+    padding: 5% 10%;
+    background-color: #f5f5f5;
+}
+
+.dark-section {
+    background-color: #292b2c;
+    color: #f5f5f5;
+    padding: 5% 10%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.picture {
+    width: 80%;
+    margin: 2% auto;
+    border-radius: 5%;
+}
+
+.picture:hover {
+    width: 150%;
+    position: relative;
+    z-index: 1;
+}
+
+/********** PROFILE SECTION ***********/
+
+
+/********** WORK EXPERIENCE SECTION ***********/
+
+.work-title {
+    width: 30%;
+}
+
+/********** LANGUAGES SECTION ***********/
+
+
+/********** FOOTER SECTION ***********/
+
+.footer-icon {
+    margin: 0 2% 2%;
+}
+
+/********** CREATION SECTION ***********/
+
+.creation {
+    padding: 0 5%;
+}
+
+/********** DAILY-UI SECTION ***********/
+    /****** SIGN-UP SECTION ******/
+
+.signUpBox {
+    width: 300px;
+}
+
+
+/********** RECIPE SECTION ***********/
+
+.recipe-download {
+    text-align: right;
+    margin: 2% auto;
+}
