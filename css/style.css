@@ -17,6 +17,11 @@ footer {
     color: white;
 }
 
+
+hr {
+    border: solid 3px #f5f5f5;
+}
+
 /********** CLASS SECTION ***********/
 
 .white-section {
@@ -90,6 +95,12 @@ footer {
     width: 300px;
 }
 
+    /****** CREDIT CARD CHECKOUT SECTION ******/
+
+.credit-card-image {
+    width: 50px;
+    margin: 0 auto;
+}
 
 /********** RECIPE SECTION ***********/
 
