@@ -219,6 +219,7 @@ hr {
 
 .pressed {
     box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
 }
 
 .red {
@@ -251,12 +252,3 @@ hr {
 }
 
 /********** LANDING PAGE SECTION ***********/
-
-.landing-page-img {
-    position: absolute;
-    right: 30px;
-    top: 200px;
-    opacity: 50%;
-    border-radius: 10%;
-    
-}
