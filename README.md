@@ -21,7 +21,6 @@ New England Clam Chowder
 Tteokguk
 Blackening Spice
 Curry Powder
-Italian Herb Blend
 Cherry-Apricot Mostarda
 Captain Morgan's Spiced Rum BBQ Sauce
 Eel Sauce
