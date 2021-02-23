@@ -43,16 +43,16 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="myCreations.html">My Creations</a>
+                        <a class="nav-link" href="../myCreations.html">My Creations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="../blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Me</a>
+                        <a class="nav-link" href="../contact.html">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -63,32 +63,38 @@
         <!--  Section -->
         
         <section class="dark-section">
-        
-            <form>
-                
-                <h3>Credit Card Information:</h3>
-                <div class="row">
-                    <div class="">
-                        <img class=" credit-card-image" src="../images/credit-card/visa.png">
-                        <img class="credit-card-image" src="../images/credit-card/discover.png">
-                        <img class="credit-card-image" src="../images/credit-card/mastercard.png">
-                        <img class="credit-card-image" src="../images/credit-card/american-express.png">
-                    </div>
-                    
-                    
+            
+            <h3>Day 2: Credit Card Information</h3>
+            
+            <div class="credit-card">
+                <h3>Payment</h3>
+                <label>Accepted Cards</label>
+                <div class="card-container">
+                    <img class="credit-card-img" src="../images/credit-card/visa.png">
+                    <img class="credit-card-img" src="../images/credit-card/discover.png">
+                    <img class="credit-card-img" src="../images/credit-card/mastercard.png">
+                    <img class="credit-card-img" src="../images/credit-card/american-express.png">
                 </div>
-              
-                <br>
-                <label>Name on Card:</label>
-                <input type="text"><br>
-                <label>Card Number:</label>
-                <input type="number"><br>
-                <label>Expiration Date:</label>
-                <input type="number"><br>
-                <label>Secure Code:</label>
-                <input type="number"><br>
-              
-            </form>
+                <label>Name on Card</label>
+                <input class="credit-card-input" type="text" placeholder="John Smith">
+                <label>Credit card number</label>
+                <input class="credit-card-input" type="text" placeholder="1234-5678-9012-3456">
+                <label>Exp Month</label>
+                <input class="credit-card-input" type="text" placeholder="September">
+
+                <div class="row">
+                  <div class="short-box">
+                    <label for="expyear">Exp Year</label>
+                    <input class="credit-card-input" class="credit-card-input" type="text" placeholder="2021">
+                  </div>
+                  <div class="short-box">
+                    <label for="cvv">CVV</label>
+                    <input class="credit-card-input" type="text" placeholder="352">
+                  </div>
+                </div>
+                
+                <input type="submit" value="Submit Payment" class="btn btn-dark credit-card-btn"> 
+            </div>
             
         </section>
         
