@@ -1,19 +1,22 @@
 var counter;
+var playerStart = 1;
 setCounter(0);
 
 $("button").click(function() {
-        if(counter % 2 == 0 && $(this).hasClass("enabled")) {
-            $(this).text("X"); 
-            counter++;
-            $("h4").text("Player 2's Turn");
-            $(this).removeClass("enabled");
-        }
-        else if (counter % 2 == 1 && $(this).hasClass("enabled")) {
-            $(this).text("O");
-            counter++;
-            $("h4").text("Player 1's Turn");
-            $(this).removeClass("enabled");
-        } 
+    if(counter % 2 == 0 && $(this).hasClass("enabled")) {
+        $(this).text("X"); 
+        counter++;
+        $("h4").text("Player 2's Turn");
+        $(this).removeClass("enabled");
+        console.log(counter);
+    }
+    else if (counter % 2 == 1 && $(this).hasClass("enabled")) {
+        $(this).text("O");
+        counter++;
+        $("h4").text("Player 1's Turn");
+        $(this).removeClass("enabled");
+        console.log(counter);
+    } 
     
     // X - Wins
     if($(".btn1").text() == "X" && $(".btn2").text() == "X" && $(".btn3").text() == "X") {
@@ -68,6 +71,7 @@ $("button").click(function() {
         winner(getCounter());
     }
     
+    draw(counter);
     
 });
 
@@ -87,7 +91,40 @@ function winner(counter) {
         $("button").text("_");       
     }, 1000);
     setCounter(player - 1);
+    
     $("button").addClass("enabled");
+    playerStart = player
+}
+
+function draw(counter) {
+    var player;
+    if(counter % 2 == 1) {
+        player = 1;
+    }
+    else {
+        player = 2;
+    }
+    
+    if(playerStart == 1 && counter == 9){
+        alert("Draw");
+        $("h4").text("Restarting...");
+        setTimeout(function() {
+            $("h4").text("Player " + player + "'s Turn");
+            $("button").text("_");       
+        }, 1000);
+        setCounter(player - 1);
+        $("button").addClass("enabled");
+    }
+    else if(playerStart == 2 && counter == 10) {
+        alert("Draw");
+        $("h4").text("Restarting...");
+        setTimeout(function() {
+            $("h4").text("Player " + player + "'s Turn");
+            $("button").text("_");       
+        }, 1000);
+        setCounter(player - 1);
+        $("button").addClass("enabled");
+    }
 }
 
 function setCounter(counter) {
