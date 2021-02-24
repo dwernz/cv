@@ -252,3 +252,18 @@ hr {
 }
 
 /********** LANDING PAGE SECTION ***********/
+
+/********** TIC TAC TOE SECTION ***********/
+
+.tic-tac-toe {
+    text-align: center;
+}
+
+.tic-tac-toe-btn {
+    margin: 5px;
+    width: 50px;
+}
+
+.enabled {
+    
+}
